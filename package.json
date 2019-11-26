@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "cssnano": "^4.1.10"
+  },
+  "dependencies": {
+    "css.js": "^0.2.2"
   }
 }
