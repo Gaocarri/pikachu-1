@@ -1,66 +1,84 @@
 /* css reset */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 *::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #text {
-    padding-left: 20px;
-    padding-bottom: 20px;
-    height: 50vh;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    top: 0;
-    overflow-y: auto;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  height: 50vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
 }
 
 #skin {
-    height: 50vh;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+  height: 50vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
 .buttons {
-    position: fixed;
-    top: 50px;
-    right: 50px;
-    display: flex;
-    flex-direction: column;
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .button {
-    width: 50px;
-    height: 40px;
-    margin-bottom: 20px;
+  width: 50px;
+  height: 40px;
+  margin-bottom: 20px;
 }
 
 @keyframes wave {
-    0% {
-        transform: rotate(0deg);
-    }
-    33% {
-        transform: rotate(5deg);
-    }
-    66% {
-        transform: rotate(-5deg)
-    }
-    100% {
-        transform: rotate(0deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(5deg);
+  }
+  66% {
+    transform: rotate(-5deg)
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .nose:hover {
-    transform-origin: center center;
-    /* 指定动画起始点 */
-    animation: wave 300ms infinite linear;
+  transform-origin: center center;
+  /* 指定动画起始点 */
+  animation: wave 300ms infinite linear;
 }
+
+
+/* 首先，画出皮卡丘黄色的皮肤 */
+
+
+/* 接下来，画出皮卡丘的眼睛 */
+
+
+/* 给皮卡丘装个鼻子 */
+
+
+/* 画出皮卡丘的上嘴唇 */
+
+
+/* 画出皮卡丘的嘴巴 */
+
+
+/* 画出舌头 */

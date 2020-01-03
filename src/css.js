@@ -1,7 +1,9 @@
-const string = `#skin {
+const string = `
+/* 首先，皮卡丘是黄色的 */
+#skin {
     background-color: #FFE600;
 }
-
+/* 接下来，画出皮卡丘的眼睛 */
 .eye {
     top: 60px;
     border: 3px solid black;
@@ -31,7 +33,7 @@ const string = `#skin {
     position: absolute;
     left: 6px;
 }
-
+/* 给皮卡丘装个鼻子 */
 .nose {
     border: 10px solid black;
     border-color: black transparent transparent transparent;
@@ -53,9 +55,7 @@ const string = `#skin {
     top: -16px;
     left: -10px;
 }
-
-
-
+/* 画出皮卡丘的脸蛋 */
 .cheek {
     border: 3px solid black;
     width: 88px;
@@ -75,7 +75,7 @@ const string = `#skin {
     transform: translateX(122px);
     top: 170px;
 }
-
+/* 画出皮卡丘的上嘴唇 */
 .mouth .lip {
     border: 3px solid black;
     height: 30px;
@@ -126,7 +126,7 @@ const string = `#skin {
     width: 100%;
     overflow: hidden;
 }
-
+/* 画出皮卡丘的舌头 */ 
 .mouth .down .oralCavity {
     border: 3px solid black;
     width: 150px;
@@ -152,5 +152,8 @@ const string = `#skin {
 }
 .mouth .down .oralCavity {
     overflow:hidden;
-}`
+}
+/* OK,这只皮卡丘送给你，触摸鼻子还会动哦 */
+`
+
 export default string;
