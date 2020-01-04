@@ -1,2 +1,2 @@
 *{padding:0;margin:0}*,:after,:before{box-sizing:border-box}#text{padding-left:20px;padding-bottom:20px;top:0;overflow-y:auto}#skin,#text{height:50vh;width:100%;position:fixed;left:0}#skin{bottom:0}.buttons{position:fixed;top:50px;right:50px;display:flex;flex-direction:column}.button{width:50px;height:40px;margin-bottom:20px}@keyframes wave{0%{transform:rotate(0deg)}33%{transform:rotate(5deg)}66%{transform:rotate(-5deg)}to{transform:rotate(0deg)}}.nose:hover{transform-origin:center center;animation:wave .3s linear infinite}
-/*# sourceMappingURL=style.3172e97b.css.map */
+/*# sourceMappingURL=style.15236339.css.map */
